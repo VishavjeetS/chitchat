@@ -1,3 +1,4 @@
+import 'package:chitchat/screens/auth/login.dart';
 import 'package:chitchat/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -17,9 +18,9 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        initialRoute: '/home',
-        home: const Home(),
+        initialRoute: '/',
         routes: {
+          '/': (context) => const Login(),
           '/home': (context) => const Home(),
         });
   }

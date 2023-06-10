@@ -74,6 +74,7 @@ flutter:
     - assets/bit3.png
     - assets/bit4.png
     - assets/bit5.png
+    - assets/logo.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
